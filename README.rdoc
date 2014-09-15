@@ -1,7 +1,8 @@
 WHAT AM I DOING?
 
-* add full_name to database and devise
+*users can crud spaces
 
+* users can crud relationships
 
 
 *check if devise is working properly

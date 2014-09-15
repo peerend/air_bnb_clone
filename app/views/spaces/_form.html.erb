@@ -1,0 +1,11 @@
+<%= form_for(@space) do |f| %>
+  <div><%=f.label :address %>
+  <%= f.text_field :address, autofocus: true %></div>
+  <div><%=f.label :day_fee %>
+  <%= f.number_field :day_fee %></div>
+  <div><%=f.label :description %>
+  <%= f.text_field :description %></div>
+  <%= f.hidden_field :user_id, :value => current_user.id %>
+
+  <div><%= f.submit "Confirm" %></div>
+<% end %>

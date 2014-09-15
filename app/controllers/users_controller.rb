@@ -1,6 +1,5 @@
 class UsersController < Devise::RegistrationController
 
-
   # def devise_parameter_sanitizer
   #   UserParameterSanitizer.new(User, :user, params)
   # end

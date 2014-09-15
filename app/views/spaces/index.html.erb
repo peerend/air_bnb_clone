@@ -1,5 +1,5 @@
 <h1> Available Spaces for BnBing </h1>
 
-  <%=@spaces.each do |space|
-    @space.description
-  end -%>
+  <% @spaces.each do |space| %>
+    <p><%= link_to "#{space.description}", edit_space_path(space) %></p>
+  <% end %>
