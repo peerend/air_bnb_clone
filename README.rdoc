@@ -1,6 +1,6 @@
 WHAT AM I DOING?
 
-* generate home page and objects
+* add full_name to database and devise
 
 
 
