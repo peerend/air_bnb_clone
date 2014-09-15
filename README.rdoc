@@ -1,10 +1,10 @@
 WHAT AM I DOING?
 
-* use devise to create users
+* generate home page and objects
 
 
 
-
+*check if devise is working properly
 
 ##THINGS TO ADD
 * comments
